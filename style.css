@@ -1,0 +1,518 @@
+/* Importing Google font - Fira Sans */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    /* background: #000; */
+}
+
+.max-width {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar styling */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #006400;
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar .links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.navbar .links li:hover :where(a, span) {
+    color: #19a463;
+}
+
+.navbar .links .language {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.navbar .links span {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.navbar .links .join a {
+    border: 1px solid #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.navbar .links .join a:hover {
+    color: #fff;
+    background: #19a463;
+    border-color: transparent;
+}
+
+/* Hero section styling */
+.hero {
+    height: 100vh;
+    background-image: url("images/hero-img.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero .content {
+    position: absolute;
+    top: 30%;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 3rem;
+    width: 600px;
+    line-height: 65px;
+}
+
+.content .search-field {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 600px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.search-field input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.search-field .search-btn {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #1dbf73;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    transition: background 0.2s ease;
+}
+
+.search-field .search-btn:hover {
+    background: #19a463;
+}
+
+.content .popular-tags {
+    display: flex;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.content .popular-tags .link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 15px;
+    list-style: none;
+}
+
+.popular-tags .link li a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px 12px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+
+.popular-tags .link li a:hover {
+    background: #fff;
+    color: #000;
+}
+.container-2{
+    background-color: skyblue;
+}
+.vdo img{
+    width: 74%;
+    margin-top: 60px;
+    margin-left: 82px;
+
+}
+.head{
+    margin-top: 73px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: gray;
+
+
+}
+.slider img{
+    
+        width: 88%;
+        margin-left: 20px;
+    
+}
+.ima p {
+    text-align: center;
+    text-align: center;
+    /* padding: 12px; */
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+/* .para h2{
+    text-align: center;
+}
+.para p {
+    text-align: center;
+    
+} */
+
+/* .para{
+    margin-top: 7px;
+    margin-left: 30px;
+} */
+.frst{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.f1 img{
+    width: 69px;
+}
+.f1:hover.f1{
+    background-color: #19a463;
+    border-radius: 5px;
+}
+.f1:hover p{
+    color: white;
+}
+.sec{
+    display: flex;
+    justify-content: space-around;
+}
+.f2 img{
+    width: 69px;
+}
+.f2:hover.f2{
+    background-color: #19a463;
+    border-radius: 5px;
+}
+.f2:hover p{
+    color: white;
+}
+
+.fa-solid{
+    text-align: center;
+}
+.ico p{
+    margin-left: 30px;
+    /* margin-bottom: 1px; */
+    /* margin-top: -20px; */
+}
+.ico{
+    margin-left: 21px;
+}
+.para{
+
+    color: gray;
+    font-weight: 400;
+    margin-left: 7px;
+    padding: 12px;
+}
+.para h4{
+    margin-left: 10px;
+    color: gray;
+}
+.para p{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 20px;
+}
+.container-3{
+    background-color:  #d2effbba;
+    padding-bottom: 93px;
+    padding-top: 30px;
+}
+.container-3 h2{
+    color: rgb(84, 84, 90);
+}
+.container-3 p{
+    color: gray;
+}
+.container-4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+
+}
+.container-4 h1{
+    margin-bottom: 46px;
+
+}
+.container-5{
+    background-color: #0d084d;
+    color: white;
+}
+.container-5 .logo{
+    padding: 25px;
+    margin-left: 85px;
+
+}
+.container-5 .heading{
+    padding: 20px;
+    margin-left: 91px;
+}
+.container-5 .cont{
+    padding: 20px;
+    margin-left: 81px;
+}
+.remarks .hm{
+    display: flex;
+    width: 92%;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 58px;
+    margin-bottom: 58px;
+}
+.para4{
+    margin-left: 78px;
+}
+.para4 .pp{
+    padding: 37px;
+}
+.para4 blockquote{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 2;
+    word-spacing: 2px;
+    margin-right: 37px;
+    color: #1a301a;
+}
+* {
+    margin: 0;
+}
+.fl{
+    display: flex;
+}
+.head1{
+    margin-bottom: 10px;
+}
+.head1 h3{
+    font-size: 18px;
+    margin-left: 5px;
+
+}
+
+.ex{
+    margin-left: -21px;
+    display: flex;
+}
+.ex i{
+    display: block;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    cursor: pointer;
+}
+.footer h6{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: gray;
+    text-align: start;
+}
+.footer ul{
+    margin-top: 22px
+}
+.footer li{
+    list-style-type: none;
+    color: gray;
+    margin-top: 22px;
+    margin-bottom: 22;
+}
+.line1 ul li:hover{
+    text-decoration: underline;
+}
+.line2 ul li:hover{
+    text-decoration: underline;
+}.line3 ul li:hover{
+    text-decoration: underline;
+}.line4 ul li:hover{
+    text-decoration: underline;
+}.line5 ul li:hover{
+    text-decoration: underline;
+}
+
+.container-10{
+    width: 92%;
+    margin: auto;
+}
+.container-10
+.para3{
+    position: absolute;
+    left: 105px;
+    margin-top: 134px;
+    font-size: 33px;
+    color: white;
+}
+.container-10 .para3 span{
+    font-style: italic;
+    font-weight: 400;
+}
+.container-10 .imgs img{
+    width: 95%;
+}
+.container-11{
+    height: 345px;
+    width: 92%;
+    background-color: #3f63c8;
+    margin: auto;
+    margin-bottom: 77px;
+
+}
+.container-11 .imgg{
+    position: absolute;
+}
+.container-11 .para4{
+    color: white;
+    padding-top: 78px;
+
+
+}
+.container-12{
+    width: 93%;
+    margin: auto;
+
+}
+.cards{
+    width: 92%;
+    margin: auto;
+}
+.cards h6{
+    margin-top: 12px;
+}
+.cards img{
+    width: 244px;
+    height: 247px;
+}
+.card{
+    width: 251px;
+    height: 282px;
+
+}
+.card img{
+    height: 240px;
+
+}
+.footer{
+    margin-top: 80px;
+}
+.footer h6{
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .hero {
+        background: none;
+    }
+    .hero .content {
+        max-width: 470px;
+        text-align: center;
+    }
+    .hero .content h2 {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    .hero .search-field {
+        display: block;
+        width: 100%;
+    }
+    .search-field .search-btn {
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    :is(.hero .content .popular-tags, .navbar .links li:not(.btn)) {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero {
+        background: none;
+    }
+
+    .hero .content {
+        max-width: 470px;
+        text-align: center;
+    }
+
+    .hero .content h2 {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .hero .search-field {
+        display: block;
+        width: 100%;
+    }
+
+    .search-field .search-btn {
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 4px;
+
+    }
+
+    :is(.hero .content .popular-tags, .navbar .links li:not(.btn)) {
+        display: none;
+    }
+}
